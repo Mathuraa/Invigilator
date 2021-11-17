@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+
+     
+}
+
+body{
+	background-color: #181818;
+}
+.cont{
+
+	display: flex;
+	 
+	 
+	 justify-content: flex-start;
+
+}
+
+.cont .ppr-cont{
+	 
+      flex-basis: 77%;
+}
+
+.cont .hero{
+	background-color: #2f3640;
+	 
+	display: flex;
+	padding: 1rem 0;
+	justify-content: center;
+	color: #fff;
+	 	
+
+}
+
+ 
+
+.cont .ppr-cont .q-cont{
+	background-color: #181818;
+	
+	padding:3rem 4rem 0 3rem;
+	position: relative;
+	min-height: 80vh;
+	color: #fff;
+}
+
+.cont .ppr-cont .q-cont .q-sub-cont{
+	 
+}
+.cont .ppr-cont .q-cont .back{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.cont .ppr-cont .q-cont .forward{
+	position: absolute;
+	bottom: 0;
+	right:  0;
+}
+
+.cont .ppr-cont .q-cont .q-sub-cont .q-head2 .ch{
+	margin: 1.5rem 0 !important;  
+}
+
+
+ 
+
+.cont .ppr-control{
+	background-color:  #232b33;
+	 
+	flex-basis: 23%;
+	color: #fff;
+
+}
+
+.cont .ppr-control .ppr-control-cont .hero1{
+	background-color: #40739e;
+}
+
+.cont .ppr-control .ppr-control-cont .time-cont{
+ 
+  display: flex;
+  justify-content: center;
+
+}
+.cont .ppr-control .ppr-control-cont .time-cont div{
+	 
+	margin: 0.5rem;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cont .ppr-control .ppr-control-cont .q-list{
+	margin: 2rem 0;
+
+}
+
+.cont .ppr-control .ppr-control-cont .q-list .q-hero{
+	text-align: center;
+	
+}
+
+.cont .ppr-control .ppr-control-cont .q-squares-cont{
+	 
+}
+.cont .ppr-control .ppr-control-cont .q-squares-cont .q-sq-sub{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cont .ppr-control .ppr-control-cont .q-squares-cont .q-sq-sub .q-square{
+	background-color: #40739e;
+	color: #fff;
+	  
+	margin: 0.6rem 0.6rem;
+	padding:0.3rem 0.7rem;
+	text-align: center;
+	flex-basis: 2.5rem;
+	border: 1px #181818;
+
+}
+
+.cont .ppr-control .ppr-control-cont .q-squares-cont .q-sq-sub .q-square:hover{
+	cursor: pointer;
+	background-color: #d7e0e9 !important;
+	color: #232b33 !important;
+}
+
+.cont .ppr-control .ppr-control-cont .submit-btn{
+	 
+	text-align: center;
+	padding-top: 4rem
+}
+
+.cont .ppr-control .ppr-control-cont .msg{
+	position: absolute;
+	left: 25%;
+	top:0;
+}
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	 
+	color: white;
+	text-align: center;
+  }

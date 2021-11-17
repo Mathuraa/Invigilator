@@ -1,0 +1,26 @@
+body{
+	margin:0;
+	padding: 0;
+	 background-image: linear-gradient(#0c2461,#0984e3);
+	height: 90vh;
+
+}
+
+#alert-cont{
+
+	padding: 0 6rem;
+
+}
+#vid-cont{
+	margin-top: -7rem;
+	//background-color: red;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
+}
+video{
+
+	 
+
+}

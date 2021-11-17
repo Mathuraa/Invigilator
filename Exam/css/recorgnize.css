@@ -1,0 +1,13 @@
+.hero{
+	//background-color: red;
+	text-align: center;
+	padding: 4rem 0;
+}
+
+#check{
+	display: block;
+	margin-top:6rem;
+	color: green;
+	font-size: 8rem;
+
+}
